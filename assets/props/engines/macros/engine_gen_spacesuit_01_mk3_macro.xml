@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Matthias (192.168.3.135) at 27.11.2018_15-39-50-->
+<macros>
+  <macro name="engine_gen_spacesuit_01_mk3_macro" class="engine">
+    <component ref="generic_engine_spacesuit" />
+    <properties>
+      <identification name="{20113,14012}" mk="3" />
+      <boost duration="3600" thrust="5" release="1" />
+      <thrust forward="0.5" reverse="0.5" strafe="0.3" pitch="0.5" yaw="0.3" roll="0.3" />
+      <angular />
+      <hull integrated="1" />
+      <sounds>
+        <enginedetail ref="enginedetail_spacesuit_01" />
+      </sounds>
+    </properties>
+  </macro>
+</macros>

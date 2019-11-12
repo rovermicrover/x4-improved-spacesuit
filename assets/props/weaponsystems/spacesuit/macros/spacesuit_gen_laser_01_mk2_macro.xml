@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Matthias (192.168.3.104) at 12.11.2018_10-37-52-->
+<macros>
+  <macro name="spacesuit_gen_laser_01_mk2_macro" class="weapon">
+    <component ref="spacesuit_gen_laser_01" />
+    <properties>
+      <identification name="{20113,10061}" mk="2" />
+      <bullet class="bullet_spacesuit_laser_01_mk2_macro" />
+      <rotationspeed max="100" />
+      <reload rate="1" />
+      <hull integrated="1" />
+      <effects>
+        <firing start="startshooting_gen_spacesuit_laser_01_mk1" />
+      </effects>
+    </properties>
+  </macro>
+</macros>

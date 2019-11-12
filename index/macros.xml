@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="/index">
+        <entry name="bullet_spacesuit_laser_01_mk2_macro" value="extensions\improvedspacesuit\assets\fx\weaponfx\macros\bullet_spacesuit_laser_01_mk2_macro"/>
+        <entry name="bullet_spacesuit_repairlaser_01_mk2_macro" value="extensions\improvedspacesuit\assets\fx\weaponfx\macros\bullet_spacesuit_repairlaser_01_mk2_macro"/>
+        <entry name="engine_gen_spacesuit_01_mk3_macro" value="extensions\improvedspacesuit\assets\props\engines\macros\engine_gen_spacesuit_01_mk3_macro"/>
+        <entry name="spacesuit_gen_laser_01_mk2_macro" value="extensions\improvedspacesuit\assets\props\weaponsystems\spacesuit\macros\spacesuit_gen_laser_01_mk2_macro"/>
+        <entry name="spacesuit_gen_repairweapon_01_mk2_macro" value="extensions\improvedspacesuit\assets\props\weaponsystems\spacesuit\macros\spacesuit_gen_repairweapon_01_mk2_macro"/>
+    </add>
+</diff>

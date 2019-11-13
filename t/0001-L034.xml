@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
-    <add sel="//language[@id='44']/page[@id='20113']">
+    <add sel="//language[@id='34']/page[@id='20101']">
         <t id="14012">(Speed Upgrade Mk3){20113,1041} {20111,301}</t>
         <t id="10001">(Repair Laser Mk2){20113,1001} {20111,201}</t>
         <t id="10061">(Hand Laser Mk2){20113,1061} {20111,201}</t>

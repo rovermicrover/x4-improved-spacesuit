@@ -1,40 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
+    <replace sel="//wares/ware[@id='weapon_gen_spacesuit_laser_01_mk1']/@name">{20113,11061}</replace>
+    <replace sel="//wares/ware[@id='weapon_gen_spacesuit_repairlaser_01_mk1']/@name">{20113,11001}</replace>
 	<add sel="//wares">
-		<ware id="engine_gen_spacesuit_01_mk3" name="{20113,14012}" group="engines" transport="inventory" volume="1" tags="disallowdrop engine equipment inventory personalupgrade crafting">
-            <price min="8000" average="10000" max="12000" />
-            <production time="10" amount="1" method="default" name="{20206,101}">
-                <primary>
-                    <ware ware="engine_gen_spacesuit_01_mk2" amount="1" />
-                    <ware ware="modpart_enginefuelinjector_t3" amount="1" />
-                </primary>
-            </production>
+		<ware id="engine_gen_spacesuit_01_mk3" name="{20113,14012}" group="engines" transport="inventory" volume="1" tags="disallowdrop engine equipment inventory noblueprint noplayerblueprint personalupgrade">
+            <price min="800000" average="1000000" max="1200000" />
+            <production time="10" amount="1" method="default" name="{20206,101}" />
             <component ref="engine_gen_spacesuit_01_mk3_macro" amount="1" />
             <use threshold="0" />
         </ware>
 
-        <ware id="weapon_gen_spacesuit_laser_01_mk2" name="{20113,10061}" group="weapons" transport="inventory" volume="1" tags="disallowdrop equipment inventory personalupgrade weapon crafting">
-            <price min="800" average="1000" max="1200" />
-            <production time="10" amount="1" method="default" name="{20206,101}">
-                <primary>
-                    <ware ware="weapon_gen_spacesuit_laser_01_mk1" amount="1" />
-                    <ware ware="modpart_weaponchamber_t3" amount="1" />
-                </primary>
-            </production>
+        <ware id="weapon_gen_spacesuit_laser_01_mk2" name="{20113,10061}" group="weapons" transport="inventory" volume="1" tags="disallowdrop equipment inventory noblueprint noplayerblueprint personalupgrade weapon">
+            <price min="8000" average="10000" max="12000" />
+            <production time="10" amount="1" method="default" name="{20206,101}" />
             <component ref="spacesuit_gen_laser_01_mk2_macro" amount="1" />
             <restriction licence="generaluseequipment" />
             <use threshold="0" />
         </ware>
 
-        <ware id="weapon_gen_spacesuit_repairlaser_01_mk2" name="{20113,10001}" group="weapons" transport="inventory" volume="1" tags="disallowdrop equipment inventory personalupgrade weapon crafting">
-            <price min="800" average="1000" max="1200" />
-            <production time="10" amount="1" method="default" name="{20206,101}">
-                <primary>
-                    <ware ware="weapon_gen_spacesuit_repairlaser_01_mk1" amount="1" />
-                    <ware ware="modpart_weaponchamber_t3" amount="1" />
-                </primary>
-            </production>
+        <ware id="weapon_gen_spacesuit_repairlaser_01_mk2" name="{20113,10001}" group="weapons" transport="inventory" volume="1" tags="disallowdrop equipment inventory noblueprint noplayerblueprint personalupgrade weapon">
+            <price min="8000" average="10000" max="12000" />
+            <production time="10" amount="1" method="default" name="{20206,101}" />
             <component ref="spacesuit_gen_repairweapon_01_mk2_macro" amount="1" />
+            <restriction licence="generaluseequipment" />
+            <use threshold="0" />
+        </ware>
+
+        <ware id="weapon_gen_spacesuit_laser_01_mk3" name="{20113,12061}" group="weapons" transport="inventory" volume="1" tags="disallowdrop equipment inventory noblueprint noplayerblueprint personalupgrade weapon">
+            <price min="800000" average="1000000" max="1200000" />
+            <production time="10" amount="1" method="default" name="{20206,101}" />
+            <component ref="spacesuit_gen_laser_01_mk3_macro" amount="1" />
+            <restriction licence="generaluseequipment" />
+            <use threshold="0" />
+        </ware>
+
+        <ware id="weapon_gen_spacesuit_repairlaser_01_mk3" name="{20113,12001}" group="weapons" transport="inventory" volume="1" tags="disallowdrop equipment inventory noblueprint noplayerblueprint personalupgrade weapon">
+            <price min="800000" average="1000000" max="1200000" />
+            <production time="10" amount="1" method="default" name="{20206,101}" />
+            <component ref="spacesuit_gen_repairweapon_01_mk3_macro" amount="1" />
             <restriction licence="generaluseequipment" />
             <use threshold="0" />
         </ware>

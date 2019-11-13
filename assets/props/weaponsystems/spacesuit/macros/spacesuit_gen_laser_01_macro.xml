@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+    <replace sel="//macros/macro[@name='spacesuit_gen_laser_01_macro']/properties/identification/@name">{20113,11061}</replace>
+    <add sel="//macros/macro[@name='spacesuit_gen_laser_01_macro']/properties/identification" type="@mk">1</add>
+</diff>

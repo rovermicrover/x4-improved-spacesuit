@@ -20,9 +20,9 @@ Adds:
 
 # Links
 
-[Egosoft Forum]()
+[Egosoft Forum](https://forum.egosoft.com/viewtopic.php?f=181&t=419908)
 
-[Steam Workshop]()
+[Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1911933573)
 
 [Github](https://github.com/rovermicrover/x4-improved-spacesuit)
 

@@ -11,7 +11,7 @@
         </ware>
 
         <ware id="weapon_gen_spacesuit_laser_01_mk2" name="{20113,10061}" group="weapons" transport="inventory" volume="1" tags="disallowdrop equipment inventory noblueprint noplayerblueprint personalupgrade weapon">
-            <price min="8000" average="10000" max="12000" />
+            <price min="80000" average="100000" max="120000" />
             <production time="10" amount="1" method="default" name="{20206,101}" />
             <component ref="spacesuit_gen_laser_01_mk2_macro" amount="1" />
             <restriction licence="generaluseequipment" />
@@ -19,7 +19,7 @@
         </ware>
 
         <ware id="weapon_gen_spacesuit_repairlaser_01_mk2" name="{20113,10001}" group="weapons" transport="inventory" volume="1" tags="disallowdrop equipment inventory noblueprint noplayerblueprint personalupgrade weapon">
-            <price min="8000" average="10000" max="12000" />
+            <price min="80000" average="100000" max="120000" />
             <production time="10" amount="1" method="default" name="{20206,101}" />
             <component ref="spacesuit_gen_repairweapon_01_mk2_macro" amount="1" />
             <restriction licence="generaluseequipment" />
